@@ -56,7 +56,7 @@ end
     Cat.all.collect do |cat|
       cat.mood = "nervous"
       @owner = nil
-    Dog.all.map do |dog|
+    Dog.all.collect do |dog|
       dog.mood = "nervous"
       @owner = nil
     end

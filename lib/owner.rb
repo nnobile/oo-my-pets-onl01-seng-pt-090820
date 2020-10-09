@@ -57,8 +57,10 @@ end
   def sell_pets
     Cat.all.collect do |cat|
       cat.mood = "nervous"
+      cat.owner = nil
     Dog.all.collect do |dog|
       dog.mood = "nervous"
+      dog.owner = nil
     end
   end
 

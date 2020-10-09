@@ -1,10 +1,12 @@
 class Owner
+  attr_accessor :pets
   attr_reader :name, :species
   @@all = []
 
   def initialize(name)
     @name = name
     @species = "human"
+    @pets = pets
     @@all << self
   end
 
@@ -61,6 +63,9 @@ end
       @owner = nil
     end
   end
+
+  def list_pets
+
 
 
 end

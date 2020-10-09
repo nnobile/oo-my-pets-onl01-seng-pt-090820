@@ -57,8 +57,8 @@ end
   def sell_pets
     Cat.all.map do |cat|
       cat.mood = "nervous"
-      cat.owner = []
-      Dog.all.map do |dog|
+      @owner = nil
+    Dog.all.map do |dog|
       dog.mood = "nervous"
       dog.owner = []
     end

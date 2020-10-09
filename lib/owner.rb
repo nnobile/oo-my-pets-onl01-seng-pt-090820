@@ -42,7 +42,7 @@ class Owner
   end
 
   def walk_dogs
-    Dog.new 
+    Dog.new
   end
 
 

@@ -57,7 +57,6 @@ end
 def sell_pets
   Cat.all.mood = "nervous"
   Dog.all.mood = "nervous"
-  end
 end
 
 

@@ -59,6 +59,7 @@ def sell_pets
     cats.mood = "nervous"
     cats.owner
   end
+end
 
 
 

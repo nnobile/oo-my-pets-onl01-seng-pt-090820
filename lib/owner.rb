@@ -52,5 +52,9 @@ end
   end
 end
 
+def sell_pets
+  self.all
+
+
 
 end

@@ -55,9 +55,9 @@ end
 end
 
 def sell_pets
-  Cat.all.select do |cats|
-    cats.mood = "nervous"
-    cats.owner
+  pets.all.select do |pets|
+    pets.mood = "nervous"
+    pets.owner
   end
 end
 

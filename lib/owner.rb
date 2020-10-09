@@ -60,7 +60,7 @@ end
       @owner = nil
     Dog.all.map do |dog|
       dog.mood = "nervous"
-      dog.owner = []
+      @owner = nil
     end
   end
 

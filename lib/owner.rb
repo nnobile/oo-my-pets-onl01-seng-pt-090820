@@ -65,7 +65,7 @@ end
   end
 
   def list_pets
-    @pets
+    Owner.pets
   end
 
 

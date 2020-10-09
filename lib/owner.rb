@@ -57,21 +57,13 @@ end
   def sell_pets
     Cat.all.collect do |cat|
       cat.mood = "nervous"
-      @owner = nil
     Dog.all.collect do |dog|
       dog.mood = "nervous"
-      @owner = nil
     end
   end
 
   def list_pets
-    Owner.pets
   end
 
-
-
 end
-
-
-
 end

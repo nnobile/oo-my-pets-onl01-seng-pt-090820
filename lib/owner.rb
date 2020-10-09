@@ -54,11 +54,11 @@ end
   end
 end
 
-  def sell_pets
-    self.owner.each do |sell|
-    sell.mood = "nervous"
+def sell_pets
+  Cat.all.select do |cats|
+    cats.mood = "nervous"
+    cats.owner #what does this line do?
   end
-end
 
 
 

@@ -63,7 +63,7 @@ end
   end
 
   def list_pets
-    "I have #{@owner.dog.count} dog(s), and #{@owner.cat.count} cat(s)."
+    "I have #{pets.count} dog(s), and #{@owner.cat.count} cat(s)."
   end
 
 end

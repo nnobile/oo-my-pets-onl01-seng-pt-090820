@@ -53,6 +53,9 @@ end
 end
 
 def sell_pets
+  self.owner.each do |sell|
+    sell.mood = "nervous"
+  end
 end
 
 

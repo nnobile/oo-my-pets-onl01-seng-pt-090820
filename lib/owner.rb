@@ -52,8 +52,8 @@ end
   end
 end
 
-def self.sell_pets
-  @@all.mood = "nervous"
+def sell_pets
+  @owner.sell_pets = "nervous"
 end
 
 

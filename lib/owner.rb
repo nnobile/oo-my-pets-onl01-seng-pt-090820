@@ -53,7 +53,7 @@ end
 end
 
 def sell_pets
-  self.mood = "nervous"
+  @@all.mood = "nervous"
 end
 
 
